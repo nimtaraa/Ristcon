@@ -1,0 +1,52 @@
+# Dependencies
+vendor
+node_modules
+npm-debug.log*
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+
+# Environment files (injected at runtime)
+.env
+.env.local
+.env.*.local
+.env.example
+
+# Storage files (mounted as volume)
+storage/logs/*
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+!storage/logs/.gitignore
+!storage/framework/.gitignore
+!storage/framework/cache/.gitignore
+!storage/framework/sessions/.gitignore
+!storage/framework/views/.gitignore
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Documentation
+*.md
+
+# Tests
+tests
+phpunit.xml
+.phpunit.result.cache
+
+# Development tools
+.editorconfig
+docker-compose*.yml
+Dockerfile*
+
+# Misc
+*.log

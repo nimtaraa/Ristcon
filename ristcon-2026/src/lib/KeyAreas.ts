@@ -1,0 +1,65 @@
+export const keyAreasData = [
+  {
+    id: "A",
+    title: "Life Sciences",
+    fields: [
+      "Agriculture",
+      "Botany / Plant Sciences",
+      "Molecular Biology & Biotechnology",
+      "Medical & Health Sciences",
+      "Veterinary Science",
+      "Zoology",
+      "Environmental Science",
+      "Earth Sciences",
+      "Fisheries & Aquaculture",
+    ],
+  },
+  {
+    id: "B",
+    title: "Physical and Chemical Sciences",
+    fields: [
+      "Biochemistry & Biophysics",
+      "Chemistry",
+      "Oceanography",
+      "Physics",
+      "Nanotechnology",
+      "Quantum Science",
+      "Nanochemistry",
+    ],
+  },
+  {
+    id: "C",
+    title: "Mathematics and Statistics",
+    fields: [
+      "Mathematics / Applied Mathematics",
+      "Statistics",
+      "Modeling & Simulation",
+      "Computational Mathematics",
+      "Mathematical Physics",
+      "Operations Research",
+      "Actuarial Science",
+    ],
+  },
+  {
+    id: "D",
+    title: "Computer Science and Information Technology",
+    fields: [
+      "Computer Science & ICT",
+      "Artificial Intelligence & Machine Learning",
+      "Data Science",
+      "Information Security",
+      "Software Engineering",
+    ],
+  },
+  {
+    id: "E",
+    title: "Science Education, Social Sciences, and Interdisciplinary Studies",
+    fields: [
+      "Social Science",
+      "Science Education",
+      "Sustainability Studies",
+      "Health Informatics",
+      "Environmental Policy",
+    ],
+  },
+];

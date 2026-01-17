@@ -1,0 +1,91 @@
+# Environment Variables
+.env
+.env.*
+!.env.example
+*.local
+
+# Dependencies
+node_modules/
+vendor/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Testing
+coverage/
+*.lcov
+.nyc_output/
+.phpunit.cache/
+.phpunit.result.cache/
+
+# IDE and Editor files
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.fleet/
+.nova/
+.phpactor.json/
+.zed/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Laravel specific
+/storage/*.key
+/storage/pail
+/public/build
+/public/hot
+/public/storage
+!/public/storage/.gitignore
+Homestead.json
+Homestead.yaml
+auth.json
+
+# Cache
+.cache/
+.vite/
+
+# ESLint
+.eslintcache
+
+# Temporary files
+*.tmp
+*.temp
+
+# Package manager locks (optional - uncomment if you don't want to commit)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+# bun.lockb
+# composer.lock
+

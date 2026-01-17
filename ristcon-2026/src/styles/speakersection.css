@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-gradient-hero {
+    @apply bg-gradient-to-r from-purple-700 to-purple-500;
+}
+
+.shadow-glow {
+    @apply shadow-2xl shadow-purple-400/40;
+}
+
+.bg-primary {
+    @apply bg-gradient-hero text-white font-bold px-3 py-1 rounded-full text-xs shadow-md;
+}
+
+.bg-secondary {
+    @apply bg-white text-purple-700 border border-purple-500 font-semibold px-3 py-1 rounded-full text-xs shadow-md;
+}
+
+
+.speaker-section{
+    @apply py-20 bg-gray-50;
+}
+
+.speaker-section-container{
+    @apply container mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.speaker-section-heading-container{
+    @apply text-center mb-16 animate-fade-in;
+}
+
+.speaker-section-heading-text{
+    @apply text-3xl md:text-4xl lg:text-5xl font-extrabold mb-4 text-gray-800;
+}
+
+.speaker-section-heading-text-speakers{
+    @apply bg-gradient-hero bg-clip-text text-transparent;
+}
+
+.speaker-section-description{
+    @apply text-lg text-gray-600 max-w-3xl mx-auto;
+}
+
+.speaker-container{
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto;
+}
+
+.speaker-card{
+    @apply overflow-hidden hover:shadow-glow transition-all duration-500 hover:-translate-y-1 bg-white shadow-xl rounded-xl border border-gray-100 hover:border-purple-300/50 animate-fade-in;
+}
+
+.speaker-cardcontent{
+    @apply p-0 !important;
+}
+
+.speaker-card-inner-container{
+    @apply relative overflow-hidden;
+}
+
+.speaker-card-image{
+    @apply w-full h-72 object-cover transition-transform duration-500 group-hover:scale-105;
+}
+
+.speaker-specify-text-container{
+    @apply absolute top-4 left-4;
+}
+
+.speaker-card-text-container{
+    @apply p-8 text-center;
+}
+
+.speaker-name{
+    @apply text-2xl font-bold mb-1 text-gray-800 group-hover:text-purple-700 transition-colors duration-300;
+}
+
+.speaker-university{
+    @apply text-gray-600 font-medium mb-1;
+}
+
+.speaker-field{
+    @apply text-sm text-gray-500 italic leading-relaxed mt-3;
+}
+
+.speaker-card-decorative-element{
+    @apply mx-auto mt-4 h-1 w-1/4 bg-gradient-hero rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300;
+}
+
+.more-info-container{
+    @apply text-center mt-16 animate-fade-in;
+}
+
+.more-info-card{
+    @apply max-w-4xl mx-auto p-6 bg-purple-50 rounded-lg border-l-4 border-r-4 border-purple-500 shadow-md !important;
+}
+
+.more-info-card-text{
+    @apply text-gray-700;
+}
+
+.more-info-card-text-highlighted{
+    @apply font-bold text-purple-700;
+}
